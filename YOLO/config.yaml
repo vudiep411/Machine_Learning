@@ -1,7 +1,5 @@
-path: /rootdir
+path: 'C:/Users/Vu Diep/Desktop/Machine-Learning/YOLO'
 train: images/train  # train images (relative to 'path')
-val: images/val  # val images (relative to 'path')
-
-# Classes
-names:
-  0: class_1
+val: images/train  # val images (relative to 'path')
+nc: 2
+names: ['player', 'football']
